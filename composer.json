@@ -1,0 +1,23 @@
+{
+  "name": "titel/hero-game",
+  "description": "Emag Interview",
+  "authors": [
+    {
+      "name": "Titel Butucaru",
+      "email": "butuemi@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Emag\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Emag\\": "tests/"
+    }
+  }
+}
